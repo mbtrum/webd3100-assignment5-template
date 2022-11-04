@@ -1,0 +1,19 @@
+.navbar {
+    background-color: lightgray;    
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-link {
+    display: block;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: darkgray;
+}
