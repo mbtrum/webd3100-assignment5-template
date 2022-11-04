@@ -10,7 +10,7 @@ body {
 }
 
 .main {
-    flex: 1 0 auto;
+    flex: 1 0 auto; /* take up all space to make a sticky footer */
 }
 
 img {
@@ -24,6 +24,7 @@ img {
     border:1px solid aqua;
 }
 
+/* Header section */
 .header-outer {
     padding: 3rem 0;
 }
@@ -33,6 +34,8 @@ img {
     align-items: center;
     justify-content: space-between;
 }
+
+/* Header menu */
 
 .nav-list {
     display: flex;
@@ -46,9 +49,10 @@ img {
     text-decoration: none;
 }
 
+/* Layout and styles for main section */
+
 .row {
     display: flex;
-    /* padding: 4rem 0; */
 }
 
 .col {
@@ -58,6 +62,15 @@ img {
     width: 50%;   
 }
 
+.flex-align-center {
+    align-items: center;
+}
+
+.footer {
+    padding-bottom: 0.5rem;
+}
+
+/* Hero content */
 .hero h1 {
     font-size: 1.5rem;
     padding-bottom: 0.5rem;
@@ -74,12 +87,4 @@ img {
 
 .hero-img {
     max-width: 450px;
-}
-
-.flex-align-center {
-    align-items: center;
-}
-
-.footer {
-    padding-bottom: 0.5rem;
 }
